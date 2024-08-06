@@ -1,0 +1,47 @@
+{
+  "permalink": "/blog/greetings",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-08-06-greetings.md",
+  "source": "@site/blog/2024-08-06-greetings.md",
+  "title": "Greetings!，my fist blog",
+  "description": "我的第一篇博客",
+  "date": "2024-08-06T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "greetings",
+      "permalink": "/blog/tags/greetings"
+    }
+  ],
+  "readingTime": 0.105,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "蔡宇奎",
+      "title": "Android开发",
+      "url": "https://github.com/aLittleGreens",
+      "image_url": "https://avatars.githubusercontent.com/u/20353284?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/20353284?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "greetings",
+    "title": "Greetings!，my fist blog",
+    "authors": [
+      {
+        "name": "蔡宇奎",
+        "title": "Android开发",
+        "url": "https://github.com/aLittleGreens",
+        "image_url": "https://avatars.githubusercontent.com/u/20353284?v=4",
+        "imageURL": "https://avatars.githubusercontent.com/u/20353284?v=4"
+      }
+    ],
+    "tags": [
+      "greetings"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}
