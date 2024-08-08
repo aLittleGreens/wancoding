@@ -16,13 +16,13 @@
               "sidebar": "android"
             },
             {
-              "id": "basis/算法与数据结构/链表",
-              "path": "/docs/basis/算法与数据结构/链表",
+              "id": "basis/算法与数据结构/数组",
+              "path": "/docs/basis/算法与数据结构/数组",
               "sidebar": "basis"
             },
             {
-              "id": "basis/算法与数据结构/数组",
-              "path": "/docs/basis/算法与数据结构/数组",
+              "id": "basis/算法与数据结构/链表",
+              "path": "/docs/basis/算法与数据结构/链表",
               "sidebar": "basis"
             },
             {
@@ -36,13 +36,18 @@
               "sidebar": "language"
             },
             {
+              "id": "thought/markdown-features",
+              "path": "/docs/thought/markdown-features",
+              "sidebar": "thought"
+            },
+            {
               "id": "thought/编程范式/intro",
               "path": "/docs/thought/编程范式/intro",
               "sidebar": "thought"
             },
             {
-              "id": "thought/设计模式/抽象工厂",
-              "path": "/docs/thought/设计模式/抽象工厂",
+              "id": "thought/设计原则/设计原则",
+              "path": "/docs/thought/设计原则/",
               "sidebar": "thought"
             },
             {
@@ -56,6 +61,11 @@
               "sidebar": "thought"
             },
             {
+              "id": "thought/设计模式/原型",
+              "path": "/docs/thought/设计模式/原型",
+              "sidebar": "thought"
+            },
+            {
               "id": "thought/设计模式/工厂方法",
               "path": "/docs/thought/设计模式/工厂方法",
               "sidebar": "thought"
@@ -66,23 +76,13 @@
               "sidebar": "thought"
             },
             {
+              "id": "thought/设计模式/抽象工厂",
+              "path": "/docs/thought/设计模式/抽象工厂",
+              "sidebar": "thought"
+            },
+            {
               "id": "thought/设计模式/桥接",
               "path": "/docs/thought/设计模式/桥接",
-              "sidebar": "thought"
-            },
-            {
-              "id": "thought/设计模式/适配器",
-              "path": "/docs/thought/设计模式/适配器",
-              "sidebar": "thought"
-            },
-            {
-              "id": "thought/设计模式/原型",
-              "path": "/docs/thought/设计模式/原型",
-              "sidebar": "thought"
-            },
-            {
-              "id": "thought/设计模式/装饰",
-              "path": "/docs/thought/设计模式/装饰",
               "sidebar": "thought"
             },
             {
@@ -91,13 +91,13 @@
               "sidebar": "thought"
             },
             {
-              "id": "thought/设计原则/设计原则",
-              "path": "/docs/thought/设计原则/",
+              "id": "thought/设计模式/装饰",
+              "path": "/docs/thought/设计模式/装饰",
               "sidebar": "thought"
             },
             {
-              "id": "thought/markdown-features",
-              "path": "/docs/thought/markdown-features",
+              "id": "thought/设计模式/适配器",
+              "path": "/docs/thought/设计模式/适配器",
               "sidebar": "thought"
             },
             {

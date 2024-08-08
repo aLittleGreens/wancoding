@@ -1,339 +1,296 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
   "/blog-c5c": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-8-b-1-315"
+        "content": "8b1b1720"
       },
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blogf-4-f-cd7"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---blogc-15-573"
+    "__props": "c15d9823"
   },
   "/blog/archive-182": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "__props": "__props---blog-archivef-81-229"
+    "__props": "f81c1134"
   },
   "/blog/first-blog-post-89a": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-first-blog-postace-ee5"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-first-blog-poste-27-4a1"
+    "sidebar": "814f3328",
+    "content": "e273c56f"
   },
   "/blog/greetings-940": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-first-blog-postace-ee5"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-greetings-182-1c9"
+    "sidebar": "814f3328",
+    "content": "1820e282"
   },
   "/blog/long-blog-post-9ad": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-first-blog-postace-ee5"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-long-blog-post-736-bc7"
+    "sidebar": "814f3328",
+    "content": "73664a40"
   },
   "/blog/mdx-blog-post-e9f": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-first-blog-postace-ee5"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-mdx-blog-post-593-37b"
+    "sidebar": "814f3328",
+    "content": "59362658"
   },
   "/blog/tags-287": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-tags-3-a-2-fa2"
+    "sidebar": "814f3328",
+    "__props": "3a2db09e"
   },
   "/blog/tags/docusaurus-704": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blogf-4-f-cd7"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---blog-tags-docusaurus-321-832"
+    "__props": "3217192f"
   },
   "/blog/tags/facebook-858": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       }
     ],
-    "__props": "__props---blog-tags-facebooke-5-a-514"
+    "__props": "e5aefb32"
   },
   "/blog/tags/greetings-7cb": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-8-b-1-315"
+        "content": "8b1b1720"
       }
     ],
-    "__props": "__props---blog-tags-greetingscb-3-3d3"
+    "__props": "cb3f2c74"
   },
   "/blog/tags/hello-299": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       }
     ],
-    "__props": "__props---blog-tags-hellof-82-2fd"
+    "__props": "f82cd581"
   },
   "/blog/tags/hola-00d": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---blog-tags-hola-5-e-9-9a3"
+    "__props": "5e90a9b3"
   },
   "/blog/welcome-d2b": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-first-blog-postace-ee5"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-welcomed-9-f-ffb"
+    "sidebar": "814f3328",
+    "content": "d9f32620"
   },
   "/markdown-page-3d7": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "a7456010"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
   "/my-react-page-f2d": {
-    "__comp": "__comp---site-src-pages-my-react-page-jsf-85-e77",
+    "__comp": "f8551aab",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "a7456010"
     },
-    "config": "config---my-react-page-5-e-9-dcc"
+    "config": "5e9f5e1a"
   },
-  "/docs-13c": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+  "/docs-a8f": {
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---docsaba-d7c"
+      "plugin": "aba21aa0"
     }
   },
-  "/docs-e16": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
+  "/docs-6d9": {
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
   },
-  "/docs-e81": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+  "/docs-0ef": {
+    "__comp": "a94703ab"
   },
   "/docs/android/hello-31e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-android-hello-411-c60"
-  },
-  "/docs/basis/算法与数据结构/链表-8e9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-basis-算法与数据结构-链表-167-e55"
+    "__comp": "17896441",
+    "content": "41198ad4"
   },
   "/docs/basis/算法与数据结构/数组-13d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-basis-算法与数据结构-数组-63-b-20d"
+    "__comp": "17896441",
+    "content": "63b05b6e"
   },
-  "/docs/category/编程范式-aec": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-编程范式-47-b-c9a"
-  },
-  "/docs/category/设计模式-fa1": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-设计模式-723-61b"
-  },
-  "/docs/category/设计原则-cde": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-设计原则-7-c-9-a2a"
+  "/docs/basis/算法与数据结构/链表-8e9": {
+    "__comp": "17896441",
+    "content": "167e94b9"
   },
   "/docs/category/算法与数据结构-f94": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-算法与数据结构-7-e-1-252"
+    "__comp": "14eb3368",
+    "__props": "7e136455"
+  },
+  "/docs/category/编程范式-aec": {
+    "__comp": "14eb3368",
+    "__props": "47b7fb9e"
+  },
+  "/docs/category/设计原则-cde": {
+    "__comp": "14eb3368",
+    "__props": "7c9a99bc"
+  },
+  "/docs/category/设计模式-fa1": {
+    "__comp": "14eb3368",
+    "__props": "7235a431"
   },
   "/docs/intro-a6e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/docs/language/hello-b46": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-language-hello-33-c-d75"
-  },
-  "/docs/thought/编程范式/intro-1fd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-thought-编程范式-intro-754-301"
-  },
-  "/docs/thought/设计模式/抽象工厂-7d5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-thought-设计模式-抽象工厂ac-5-213"
-  },
-  "/docs/thought/设计模式/代理-543": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-thought-设计模式-代理-927-2f4"
-  },
-  "/docs/thought/设计模式/单例-467": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-thought-设计模式-单例-500-54b"
-  },
-  "/docs/thought/设计模式/工厂方法-4d4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-thought-设计模式-工厂方法ba-3-13c"
-  },
-  "/docs/thought/设计模式/建造者-501": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-thought-设计模式-建造者-52-a-266"
-  },
-  "/docs/thought/设计模式/桥接-d45": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-thought-设计模式-桥接a-6-e-aa0"
-  },
-  "/docs/thought/设计模式/适配器-f3f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-thought-设计模式-适配器a-49-024"
-  },
-  "/docs/thought/设计模式/原型-99b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-thought-设计模式-原型-0-d-2-aae"
-  },
-  "/docs/thought/设计模式/装饰-0be": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-thought-设计模式-装饰ec-8-35e"
-  },
-  "/docs/thought/设计模式/组合-72e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-thought-设计模式-组合bbe-5ca"
-  },
-  "/docs/thought/设计原则/-4f4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-thought-设计原则-f-6-c-040"
+    "__comp": "17896441",
+    "content": "33c53cfa"
   },
   "/docs/thought/markdown-features-b28": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-thought-markdown-features-17-c-ada"
+    "__comp": "17896441",
+    "content": "17cf88c6"
+  },
+  "/docs/thought/编程范式/intro-1fd": {
+    "__comp": "17896441",
+    "content": "75488ad0"
+  },
+  "/docs/thought/设计原则/-4f4": {
+    "__comp": "17896441",
+    "content": "f6c40931"
+  },
+  "/docs/thought/设计模式/代理-543": {
+    "__comp": "17896441",
+    "content": "9272ff41"
+  },
+  "/docs/thought/设计模式/单例-467": {
+    "__comp": "17896441",
+    "content": "500d921d"
+  },
+  "/docs/thought/设计模式/原型-99b": {
+    "__comp": "17896441",
+    "content": "0d2d1b3b"
+  },
+  "/docs/thought/设计模式/工厂方法-4d4": {
+    "__comp": "17896441",
+    "content": "ba32824b"
+  },
+  "/docs/thought/设计模式/建造者-501": {
+    "__comp": "17896441",
+    "content": "52af6aba"
+  },
+  "/docs/thought/设计模式/抽象工厂-7d5": {
+    "__comp": "17896441",
+    "content": "ac5638d0"
+  },
+  "/docs/thought/设计模式/桥接-d45": {
+    "__comp": "17896441",
+    "content": "a6ed2070"
+  },
+  "/docs/thought/设计模式/组合-72e": {
+    "__comp": "17896441",
+    "content": "bbe04f45"
+  },
+  "/docs/thought/设计模式/装饰-0be": {
+    "__comp": "17896441",
+    "content": "ec8c9a18"
+  },
+  "/docs/thought/设计模式/适配器-f3f": {
+    "__comp": "17896441",
+    "content": "a49d5a95"
   },
   "/-e5f": {
-    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__comp": "1df93b7f",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "a7456010"
     },
-    "config": "config---my-react-page-5-e-9-dcc"
+    "config": "5e9f5e1a"
   }
 }
