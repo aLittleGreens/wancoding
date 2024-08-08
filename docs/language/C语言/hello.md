@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Hi11'
+sidebar_label: '介绍'
 sidebar_position: 1
 ---
 # Hello android

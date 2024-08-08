@@ -2,6 +2,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+const beian = 'xxxxxx'
 const config: Config = {
   title: 'wancoding',
   tagline: 'coding is cool',
@@ -165,9 +166,14 @@ const config: Config = {
               href: 'https://github.com/aLittleGreens/',
             },
           ],
-        },
+        }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} wancoding, Inc. Built with Docusaurus.`,
+      copyright: `
+      <p margin-bottom: 0;>Copyright ©  ${new Date().getFullYear()} wancoding. | Built with Docusa˝urus.</p>
+      <p style="margin-top: 0;">
+      <a href="http://beian.miit.gov.cn/" style="color: white;text-decoration: none;">${beian}</a>
+      </p>
+      `
     },
     prism: {
       theme: prismThemes.github,
