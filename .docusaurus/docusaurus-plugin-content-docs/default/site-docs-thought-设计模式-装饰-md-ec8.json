@@ -1,0 +1,27 @@
+{
+  "id": "thought/设计模式/装饰",
+  "title": "装饰模式",
+  "description": "",
+  "source": "@site/docs/thought/设计模式/装饰.md",
+  "sourceDirName": "thought/设计模式",
+  "slug": "/thought/设计模式/装饰",
+  "permalink": "/docs/thought/设计模式/装饰",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/docs/thought/设计模式/装饰.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "thought",
+  "previous": {
+    "title": "组合",
+    "permalink": "/docs/thought/设计模式/组合"
+  },
+  "next": {
+    "title": "代理模式",
+    "permalink": "/docs/thought/设计模式/代理"
+  }
+}

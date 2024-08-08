@@ -1,0 +1,27 @@
+{
+  "id": "thought/编程范式/设计原则",
+  "title": "设计原则",
+  "description": "",
+  "source": "@site/docs/thought/编程范式/设计原则.md",
+  "sourceDirName": "thought/编程范式",
+  "slug": "/thought/编程范式/设计原则",
+  "permalink": "/docs/thought/编程范式/设计原则",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/docs/thought/编程范式/设计原则.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "thought",
+  "previous": {
+    "title": "编程范式",
+    "permalink": "/docs/category/编程范式"
+  },
+  "next": {
+    "title": "设计原则",
+    "permalink": "/docs/category/设计原则"
+  }
+}

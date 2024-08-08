@@ -8,75 +8,149 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "hello",
+          "mainDocId": "intro",
           "docs": [
             {
-              "id": "hello",
-              "path": "/docs/hello",
-              "sidebar": "tutorialSidebar"
+              "id": "android/hello",
+              "path": "/docs/android/hello",
+              "sidebar": "android"
+            },
+            {
+              "id": "basis/算法与数据结构/链表",
+              "path": "/docs/basis/算法与数据结构/链表",
+              "sidebar": "basis"
+            },
+            {
+              "id": "basis/算法与数据结构/数组",
+              "path": "/docs/basis/算法与数据结构/数组",
+              "sidebar": "basis"
             },
             {
               "id": "intro",
               "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docs"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
+              "id": "language/hello",
+              "path": "/docs/language/hello",
+              "sidebar": "language"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
+              "id": "thought/编程范式/intro",
+              "path": "/docs/thought/编程范式/intro",
+              "sidebar": "thought"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
+              "id": "thought/设计模式/抽象工厂",
+              "path": "/docs/thought/设计模式/抽象工厂",
+              "sidebar": "thought"
             },
             {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
+              "id": "thought/设计模式/代理",
+              "path": "/docs/thought/设计模式/代理",
+              "sidebar": "thought"
             },
             {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
+              "id": "thought/设计模式/单例",
+              "path": "/docs/thought/设计模式/单例",
+              "sidebar": "thought"
             },
             {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
+              "id": "thought/设计模式/工厂方法",
+              "path": "/docs/thought/设计模式/工厂方法",
+              "sidebar": "thought"
             },
             {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
+              "id": "thought/设计模式/建造者",
+              "path": "/docs/thought/设计模式/建造者",
+              "sidebar": "thought"
             },
             {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
-              "sidebar": "tutorialSidebar"
+              "id": "thought/设计模式/桥接",
+              "path": "/docs/thought/设计模式/桥接",
+              "sidebar": "thought"
             },
             {
-              "id": "/category/tutorial---basics",
-              "path": "/docs/category/tutorial---basics",
-              "sidebar": "tutorialSidebar"
+              "id": "thought/设计模式/适配器",
+              "path": "/docs/thought/设计模式/适配器",
+              "sidebar": "thought"
             },
             {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
-              "sidebar": "tutorialSidebar"
+              "id": "thought/设计模式/原型",
+              "path": "/docs/thought/设计模式/原型",
+              "sidebar": "thought"
+            },
+            {
+              "id": "thought/设计模式/装饰",
+              "path": "/docs/thought/设计模式/装饰",
+              "sidebar": "thought"
+            },
+            {
+              "id": "thought/设计模式/组合",
+              "path": "/docs/thought/设计模式/组合",
+              "sidebar": "thought"
+            },
+            {
+              "id": "thought/设计原则/设计原则",
+              "path": "/docs/thought/设计原则/",
+              "sidebar": "thought"
+            },
+            {
+              "id": "thought/markdown-features",
+              "path": "/docs/thought/markdown-features",
+              "sidebar": "thought"
+            },
+            {
+              "id": "/category/设计模式",
+              "path": "/docs/category/设计模式",
+              "sidebar": "thought"
+            },
+            {
+              "id": "/category/编程范式",
+              "path": "/docs/category/编程范式",
+              "sidebar": "thought"
+            },
+            {
+              "id": "/category/设计原则",
+              "path": "/docs/category/设计原则",
+              "sidebar": "thought"
+            },
+            {
+              "id": "/category/算法与数据结构",
+              "path": "/docs/category/算法与数据结构",
+              "sidebar": "basis"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {
+            "docs": {
               "link": {
-                "path": "/docs/hello",
-                "label": "Hi!"
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            },
+            "thought": {
+              "link": {
+                "path": "/docs/category/设计模式",
+                "label": "设计模式"
+              }
+            },
+            "basis": {
+              "link": {
+                "path": "/docs/category/算法与数据结构",
+                "label": "算法与数据结构"
+              }
+            },
+            "language": {
+              "link": {
+                "path": "/docs/language/hello",
+                "label": "Hi11"
+              }
+            },
+            "android": {
+              "link": {
+                "path": "/docs/android/hello",
+                "label": "Hi11"
               }
             }
           }

@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog', 'c5c'),
     exact: true
@@ -79,87 +114,147 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '180'),
+    component: ComponentCreator('/docs', '13c'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '34a'),
+        component: ComponentCreator('/docs', 'e16'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'b0c'),
+            component: ComponentCreator('/docs', 'e81'),
             routes: [
               {
-                path: '/docs/category/tutorial---basics',
-                component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
+                path: '/docs/android/hello',
+                component: ComponentCreator('/docs/android/hello', '31e'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "android"
               },
               {
-                path: '/docs/category/tutorial---extras',
-                component: ComponentCreator('/docs/category/tutorial---extras', '9ad'),
+                path: '/docs/basis/算法与数据结构/链表',
+                component: ComponentCreator('/docs/basis/算法与数据结构/链表', '8e9'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "basis"
               },
               {
-                path: '/docs/hello',
-                component: ComponentCreator('/docs/hello', '4d1'),
+                path: '/docs/basis/算法与数据结构/数组',
+                component: ComponentCreator('/docs/basis/算法与数据结构/数组', '13d'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "basis"
+              },
+              {
+                path: '/docs/category/编程范式',
+                component: ComponentCreator('/docs/category/编程范式', 'aec'),
+                exact: true,
+                sidebar: "thought"
+              },
+              {
+                path: '/docs/category/设计模式',
+                component: ComponentCreator('/docs/category/设计模式', 'fa1'),
+                exact: true,
+                sidebar: "thought"
+              },
+              {
+                path: '/docs/category/设计原则',
+                component: ComponentCreator('/docs/category/设计原则', 'cde'),
+                exact: true,
+                sidebar: "thought"
+              },
+              {
+                path: '/docs/category/算法与数据结构',
+                component: ComponentCreator('/docs/category/算法与数据结构', 'f94'),
+                exact: true,
+                sidebar: "basis"
               },
               {
                 path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                component: ComponentCreator('/docs/intro', 'a6e'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "docs"
               },
               {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
+                path: '/docs/language/hello',
+                component: ComponentCreator('/docs/language/hello', 'b46'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "language"
               },
               {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
+                path: '/docs/thought/编程范式/intro',
+                component: ComponentCreator('/docs/thought/编程范式/intro', '1fd'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "thought"
               },
               {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
+                path: '/docs/thought/设计模式/抽象工厂',
+                component: ComponentCreator('/docs/thought/设计模式/抽象工厂', '7d5'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "thought"
               },
               {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
+                path: '/docs/thought/设计模式/代理',
+                component: ComponentCreator('/docs/thought/设计模式/代理', '543'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "thought"
               },
               {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
+                path: '/docs/thought/设计模式/单例',
+                component: ComponentCreator('/docs/thought/设计模式/单例', '467'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "thought"
               },
               {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
+                path: '/docs/thought/设计模式/工厂方法',
+                component: ComponentCreator('/docs/thought/设计模式/工厂方法', '4d4'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "thought"
               },
               {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
+                path: '/docs/thought/设计模式/建造者',
+                component: ComponentCreator('/docs/thought/设计模式/建造者', '501'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "thought"
               },
               {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
+                path: '/docs/thought/设计模式/桥接',
+                component: ComponentCreator('/docs/thought/设计模式/桥接', 'd45'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "thought"
+              },
+              {
+                path: '/docs/thought/设计模式/适配器',
+                component: ComponentCreator('/docs/thought/设计模式/适配器', 'f3f'),
+                exact: true,
+                sidebar: "thought"
+              },
+              {
+                path: '/docs/thought/设计模式/原型',
+                component: ComponentCreator('/docs/thought/设计模式/原型', '99b'),
+                exact: true,
+                sidebar: "thought"
+              },
+              {
+                path: '/docs/thought/设计模式/装饰',
+                component: ComponentCreator('/docs/thought/设计模式/装饰', '0be'),
+                exact: true,
+                sidebar: "thought"
+              },
+              {
+                path: '/docs/thought/设计模式/组合',
+                component: ComponentCreator('/docs/thought/设计模式/组合', '72e'),
+                exact: true,
+                sidebar: "thought"
+              },
+              {
+                path: '/docs/thought/设计原则/',
+                component: ComponentCreator('/docs/thought/设计原则/', '4f4'),
+                exact: true,
+                sidebar: "thought"
+              },
+              {
+                path: '/docs/thought/markdown-features',
+                component: ComponentCreator('/docs/thought/markdown-features', 'b28'),
+                exact: true,
+                sidebar: "thought"
               }
             ]
           }

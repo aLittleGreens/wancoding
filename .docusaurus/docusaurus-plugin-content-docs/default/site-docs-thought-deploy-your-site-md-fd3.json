@@ -1,0 +1,27 @@
+{
+  "id": "thought/deploy-your-site",
+  "title": "Deploy your site",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/docs/thought/deploy-your-site.md",
+  "sourceDirName": "thought",
+  "slug": "/thought/deploy-your-site",
+  "permalink": "/docs/thought/deploy-your-site",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/docs/thought/deploy-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "thought",
+  "previous": {
+    "title": "Markdown Features",
+    "permalink": "/docs/thought/markdown-features"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/docs/thought/congratulations"
+  }
+}

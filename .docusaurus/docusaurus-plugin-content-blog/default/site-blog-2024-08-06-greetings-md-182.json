@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/greetings",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-08-06-greetings.md",
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/blog/2024-08-06-greetings.md",
   "source": "@site/blog/2024-08-06-greetings.md",
   "title": "Greetings!，my fist blog",
   "description": "我的第一篇博客",
@@ -19,22 +19,14 @@
       "name": "蔡宇奎",
       "title": "Android开发",
       "url": "https://github.com/aLittleGreens",
-      "image_url": "https://avatars.githubusercontent.com/u/20353284?v=4",
-      "imageURL": "https://avatars.githubusercontent.com/u/20353284?v=4"
+      "imageURL": "https://avatars.githubusercontent.com/u/20353284?v=4",
+      "key": "littleGreens"
     }
   ],
   "frontMatter": {
     "slug": "greetings",
     "title": "Greetings!，my fist blog",
-    "authors": [
-      {
-        "name": "蔡宇奎",
-        "title": "Android开发",
-        "url": "https://github.com/aLittleGreens",
-        "image_url": "https://avatars.githubusercontent.com/u/20353284?v=4",
-        "imageURL": "https://avatars.githubusercontent.com/u/20353284?v=4"
-      }
-    ],
+    "authors": "littleGreens",
     "tags": [
       "greetings"
     ]

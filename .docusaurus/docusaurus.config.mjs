@@ -4,19 +4,19 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "wancoding",
+  "tagline": "coding is cool",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://wancoding.cn",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "LittleGreens",
+  "projectName": "wancoding",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
-    "defaultLocale": "en",
+    "defaultLocale": "zh-Hans",
     "locales": [
-      "en"
+      "zh-Hans"
     ],
     "path": "i18n",
     "localeConfigs": {}
@@ -26,12 +26,13 @@ export default {
       "classic",
       {
         "docs": {
+          "path": "docs",
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -40,19 +41,67 @@ export default {
     ]
   ],
   "themeConfig": {
+    "docs": {
+      "sidebar": {
+        "hideable": false,
+        "autoCollapseCategories": true
+      },
+      "versionPersistence": "localStorage"
+    },
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": true
+    },
+    "announcementBar": {
+      "id": "announcementBar-2",
+      "content": "⭐️ 如果你喜欢这个网站，在 <a style=\"color: red\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/aLittleGreens/wancoding\">GitHub</a> 上给它一颗 ⭐ ",
+      "isCloseable": true
+    },
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "wancoding",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/logo.svg",
+        "width": 32,
+        "height": 32
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "type": "doc",
+          "docId": "intro",
           "position": "left",
-          "label": "Tutorial"
+          "label": "职业素养"
+        },
+        {
+          "type": "docSidebar",
+          "position": "left",
+          "sidebarId": "thought",
+          "label": "👨‍💻编程思想"
+        },
+        {
+          "type": "docSidebar",
+          "position": "left",
+          "sidebarId": "basis",
+          "label": "🚀编程基础"
+        },
+        {
+          "type": "docSidebar",
+          "position": "left",
+          "sidebarId": "language",
+          "label": "编程语言"
+        },
+        {
+          "type": "docSidebar",
+          "position": "left",
+          "sidebarId": "android",
+          "label": "Android"
+        },
+        {
+          "to": "/website",
+          "label": "🌐网站导航",
+          "position": "left"
         },
         {
           "to": "/blog",
@@ -60,7 +109,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/aLittleGreens",
           "label": "GitHub",
           "position": "right"
         }
@@ -81,20 +130,7 @@ export default {
         },
         {
           "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
+          "items": []
         },
         {
           "title": "More",
@@ -105,12 +141,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/aLittleGreens/"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024 wancoding, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {
@@ -315,18 +351,6 @@ export default {
           }
         }
       ]
-    },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
-    },
-    "docs": {
-      "versionPersistence": "localStorage",
-      "sidebar": {
-        "hideable": false,
-        "autoCollapseCategories": false
-      }
     },
     "metadata": [],
     "tableOfContents": {

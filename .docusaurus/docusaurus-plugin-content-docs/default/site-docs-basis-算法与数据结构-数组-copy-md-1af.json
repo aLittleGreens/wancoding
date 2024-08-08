@@ -1,0 +1,27 @@
+{
+  "id": "basis/算法与数据结构/数组 copy",
+  "title": "数组 copy",
+  "description": "",
+  "source": "@site/docs/basis/算法与数据结构/数组 copy.md",
+  "sourceDirName": "basis/算法与数据结构",
+  "slug": "/basis/算法与数据结构/数组 copy",
+  "permalink": "/docs/basis/算法与数据结构/数组 copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/docs/basis/算法与数据结构/数组 copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "basis",
+  "previous": {
+    "title": "算法与数据结构",
+    "permalink": "/docs/category/算法与数据结构"
+  },
+  "next": {
+    "title": "数组",
+    "permalink": "/docs/basis/算法与数据结构/数组"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "thought/设计模式/工厂方法",
+  "title": "工厂方法",
+  "description": "",
+  "source": "@site/docs/thought/设计模式/工厂方法.md",
+  "sourceDirName": "thought/设计模式",
+  "slug": "/thought/设计模式/工厂方法",
+  "permalink": "/docs/thought/设计模式/工厂方法",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/docs/thought/设计模式/工厂方法.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "thought",
+  "previous": {
+    "title": "抽象工厂",
+    "permalink": "/docs/thought/设计模式/抽象工厂"
+  },
+  "next": {
+    "title": "建造者模式",
+    "permalink": "/docs/thought/设计模式/建造者"
+  }
+}

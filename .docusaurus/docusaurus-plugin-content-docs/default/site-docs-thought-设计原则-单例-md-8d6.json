@@ -1,0 +1,27 @@
+{
+  "id": "thought/设计原则/单例",
+  "title": "单例",
+  "description": "",
+  "source": "@site/docs/thought/设计原则/单例.md",
+  "sourceDirName": "thought/设计原则",
+  "slug": "/thought/设计原则/单例",
+  "permalink": "/docs/thought/设计原则/单例",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/docs/thought/设计原则/单例.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "thought",
+  "previous": {
+    "title": "设计原则",
+    "permalink": "/docs/category/设计原则"
+  },
+  "next": {
+    "title": "Markdown Features",
+    "permalink": "/docs/thought/markdown-features"
+  }
+}

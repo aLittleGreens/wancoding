@@ -1,0 +1,27 @@
+{
+  "id": "basis/算法与数据结构/数组",
+  "title": "数组",
+  "description": "",
+  "source": "@site/docs/basis/算法与数据结构/数组.md",
+  "sourceDirName": "basis/算法与数据结构",
+  "slug": "/basis/算法与数据结构/数组",
+  "permalink": "/docs/basis/算法与数据结构/数组",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/docs/basis/算法与数据结构/数组.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "basis",
+  "previous": {
+    "title": "算法与数据结构",
+    "permalink": "/docs/category/算法与数据结构"
+  },
+  "next": {
+    "title": "链表",
+    "permalink": "/docs/basis/算法与数据结构/链表"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "thought/create-a-page",
+  "title": "Create a Page",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/docs/thought/create-a-page.md",
+  "sourceDirName": "thought",
+  "slug": "/thought/create-a-page",
+  "permalink": "/docs/thought/create-a-page",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/docs/thought/create-a-page.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "thought",
+  "next": {
+    "title": "Create a Document",
+    "permalink": "/docs/thought/create-a-document"
+  }
+}

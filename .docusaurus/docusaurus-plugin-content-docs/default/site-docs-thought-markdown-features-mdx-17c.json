@@ -1,0 +1,23 @@
+{
+  "id": "thought/markdown-features",
+  "title": "Markdown Features",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/thought/markdown-features.mdx",
+  "sourceDirName": "thought",
+  "slug": "/thought/markdown-features",
+  "permalink": "/docs/thought/markdown-features",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/docs/thought/markdown-features.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "thought",
+  "previous": {
+    "title": "设计原则",
+    "permalink": "/docs/thought/设计原则/"
+  }
+}

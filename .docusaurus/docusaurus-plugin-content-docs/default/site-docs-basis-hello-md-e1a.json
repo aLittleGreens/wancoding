@@ -1,0 +1,24 @@
+{
+  "id": "basis/hello",
+  "title": "Hello android",
+  "description": "This is my first Docusaurus document!",
+  "source": "@site/docs/basis/hello.md",
+  "sourceDirName": "basis",
+  "slug": "/basis/hello",
+  "permalink": "/docs/basis/hello",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/docs/basis/hello.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Hi11",
+    "sidebar_position": 1
+  },
+  "sidebar": "basis",
+  "next": {
+    "title": "算法与数据结构",
+    "permalink": "/docs/category/算法与数据结构"
+  }
+}

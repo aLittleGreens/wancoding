@@ -1,0 +1,24 @@
+{
+  "id": "thought/设计模式/单例模式 copy",
+  "title": "单例模式 copy",
+  "description": "",
+  "source": "@site/docs/thought/设计模式/单例模式 copy.md",
+  "sourceDirName": "thought/设计模式",
+  "slug": "/thought/设计模式/单例模式 copy",
+  "permalink": "/docs/thought/设计模式/单例模式 copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/docs/thought/设计模式/单例模式 copy.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "thought",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/thought/congratulations"
+  },
+  "next": {
+    "title": "单例模式",
+    "permalink": "/docs/thought/设计模式/单例模式"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "basis/manage-docs-versions",
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/basis/manage-docs-versions.md",
+  "sourceDirName": "basis",
+  "slug": "/basis/manage-docs-versions",
+  "permalink": "/docs/basis/manage-docs-versions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/docs/basis/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "basis",
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/basis/translate-your-site"
+  }
+}

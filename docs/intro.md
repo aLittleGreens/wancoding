@@ -1,47 +1,22 @@
 ---
 sidebar_position: 1
 ---
+# 程序员的职业素养
 
-# Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+## 领域必备
 
-Get started by **creating a new site**.
+作为程序员，当然要在程序员的领域做到擅长甚至精通。到底有哪些东西是我们每个程序员必须要有的技能呢？下面请看
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+* 设计模式
+* 设计原则（SOLID原则，组件设计原则等）
+* 方法。理解Scrum敏捷开发，看板，瀑布，结构化分析，结构化设计等
+* 实践。测试驱动开发，面向对象设计，结构化编程，持续集成，结对编程等
+* 工件。如何使用UML图，结构图，流程图，时序图等等吧
 
-### What you'll need
+## 持续练习
+只有不断的练习，试错，你才能更熟练的驾驭程序员这个职业。
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## 了解业务领域
+一个好的职业素养，就是在你的技术能力之外，去理解业务，去了解领域知识。比如你编写一个财务系统，如果你对财务领域不了解，那会很难做出完美的软件。我也建议，不管你到了哪个领域做开发，买两本书关于该领域的，学习学习，并不让你做到领域专家，但起码对流程对业务痛点业务细节都有所认知。

@@ -1,0 +1,24 @@
+{
+  "id": "thought/设计模式/工厂方法 copy 5",
+  "title": "工厂方法 copy 5",
+  "description": "",
+  "source": "@site/docs/thought/设计模式/工厂方法 copy 5.md",
+  "sourceDirName": "thought/设计模式",
+  "slug": "/thought/设计模式/工厂方法 copy 5",
+  "permalink": "/docs/thought/设计模式/工厂方法 copy 5",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/docs/thought/设计模式/工厂方法 copy 5.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "thought",
+  "previous": {
+    "title": "原型",
+    "permalink": "/docs/thought/设计模式/原型"
+  },
+  "next": {
+    "title": "工厂方法 copy 6",
+    "permalink": "/docs/thought/设计模式/工厂方法 copy 6"
+  }
+}

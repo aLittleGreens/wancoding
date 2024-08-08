@@ -1,0 +1,20 @@
+{
+  "id": "language/hello",
+  "title": "Hello android",
+  "description": "This is my first Docusaurus document!",
+  "source": "@site/docs/language/hello.md",
+  "sourceDirName": "language",
+  "slug": "/language/hello",
+  "permalink": "/docs/language/hello",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aLittleGreens/wancoding/tree/main/docs/language/hello.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Hi11",
+    "sidebar_position": 1
+  },
+  "sidebar": "language"
+}
