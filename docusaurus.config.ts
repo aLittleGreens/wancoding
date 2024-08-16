@@ -2,7 +2,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-const beian = 'xxxxxx'
+const beian = '粤ICP备2024296915号'
 const config: Config = {
   title: 'wancoding',
   tagline: 'coding is cool',
@@ -30,6 +30,17 @@ const config: Config = {
     locales: ['zh-Hans'],
   },
 
+  // plugins: [
+  //   [
+  //     require.resolve("@cmfcmf/docusaurus-search-local"),
+  //     {
+  //       indexPages: true,
+  //       includeParentCategoriesInPageTitle: true,
+  //     },
+  //   ],
+  // ],
+
+
   presets: [
     [
       'classic',
@@ -54,6 +65,18 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
+    ],
+  ],
+  themes: [
+    [
+      "@easyops-cn/docusaurus-search-local",
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: ["en", "zh"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      }),
     ],
   ],
 
@@ -168,6 +191,7 @@ const config: Config = {
           ],
         }
       ],
+      
       copyright: `
       <p margin-bottom: 0;>Copyright ©  ${new Date().getFullYear()} wancoding. | Built with Docusa˝urus.</p>
       <p style="margin-top: 0;">
