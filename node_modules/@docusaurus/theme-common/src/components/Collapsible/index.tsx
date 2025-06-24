@@ -15,7 +15,7 @@ import React, {
   type SetStateAction,
   type ReactNode,
 } from 'react';
-import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
+import useIsBrowser from '@docusaurus/useIsBrowser';
 import useIsomorphicLayoutEffect from '@docusaurus/useIsomorphicLayoutEffect';
 import {prefersReducedMotion} from '../../utils/accessibilityUtils';
 
@@ -92,7 +92,7 @@ function useCollapseAnimation({
   collapsed,
   animation,
 }: {
-  collapsibleRef: RefObject<HTMLElement>;
+  collapsibleRef: RefObject<HTMLElement | null>;
   collapsed: boolean;
   animation?: CollapsibleAnimationConfig;
 }) {
@@ -161,8 +161,15 @@ type CollapsibleElementType = React.ElementType<
  * Prevent hydration layout shift before animations are handled imperatively
  * with JS
  */
-function getSSRStyle(collapsed: boolean) {
-  if (ExecutionEnvironment.canUseDOM) {
+function getSSRStyle({
+  collapsed,
+  isBrowser,
+}: {
+  collapsed: boolean;
+  isBrowser: boolean;
+}) {
+  // After hydration, styles are applied
+  if (isBrowser) {
     return undefined;
   }
   return collapsed ? CollapsedStyles : ExpandedStyles;
@@ -202,6 +209,7 @@ function CollapsibleBase({
   className,
   disableSSRStyle,
 }: CollapsibleBaseProps) {
+  const isBrowser = useIsBrowser();
   const collapsibleRef = useRef<HTMLElement>(null);
 
   useCollapseAnimation({collapsibleRef, collapsed, animation});
@@ -211,7 +219,8 @@ function CollapsibleBase({
       // @ts-expect-error: the "too complicated type" is produced from
       // "CollapsibleElementType" being a huge union
       ref={collapsibleRef as RefObject<never>} // Refs are contravariant, which is not expressible in TS
-      style={disableSSRStyle ? undefined : getSSRStyle(collapsed)}
+      // Not even sure we need this SSRStyle anymore, try to remove it?
+      style={disableSSRStyle ? undefined : getSSRStyle({collapsed, isBrowser})}
       onTransitionEnd={(e: React.TransitionEvent) => {
         if (e.propertyName !== 'height') {
           return;
@@ -263,7 +272,7 @@ type CollapsibleProps = CollapsibleBaseProps & {
  * component will be invisible (zero height) when collapsed. Doesn't provide
  * interactivity by itself: collapse state is toggled through props.
  */
-export function Collapsible({lazy, ...props}: CollapsibleProps): JSX.Element {
+export function Collapsible({lazy, ...props}: CollapsibleProps): ReactNode {
   const Comp = lazy ? CollapsibleLazy : CollapsibleBase;
   return <Comp {...props} />;
 }

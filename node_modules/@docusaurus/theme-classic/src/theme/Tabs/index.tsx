@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React, {cloneElement, type ReactElement} from 'react';
+import React, {cloneElement, type ReactElement, type ReactNode} from 'react';
 import clsx from 'clsx';
 import {
   useScrollPositionBlocker,
@@ -87,7 +87,9 @@ function TabList({
           tabIndex={selectedValue === value ? 0 : -1}
           aria-selected={selectedValue === value}
           key={value}
-          ref={(tabControl) => tabRefs.push(tabControl)}
+          ref={(tabControl) => {
+            tabRefs.push(tabControl);
+          }}
           onKeyDown={handleKeydown}
           onClick={handleTabChange}
           {...attributes}
@@ -122,7 +124,9 @@ function TabContent({
       // fail-safe or fail-fast? not sure what's best here
       return null;
     }
-    return cloneElement(selectedTabItem, {className: 'margin-top--md'});
+    return cloneElement(selectedTabItem, {
+      className: clsx('margin-top--md', selectedTabItem.props.className),
+    });
   }
   return (
     <div className="margin-top--md">
@@ -136,7 +140,7 @@ function TabContent({
   );
 }
 
-function TabsComponent(props: Props): JSX.Element {
+function TabsComponent(props: Props): ReactNode {
   const tabs = useTabs(props);
   return (
     <div className={clsx('tabs-container', styles.tabList)}>
@@ -146,7 +150,7 @@ function TabsComponent(props: Props): JSX.Element {
   );
 }
 
-export default function Tabs(props: Props): JSX.Element {
+export default function Tabs(props: Props): ReactNode {
   const isBrowser = useIsBrowser();
   return (
     <TabsComponent

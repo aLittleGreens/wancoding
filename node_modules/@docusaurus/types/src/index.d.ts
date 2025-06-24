@@ -14,6 +14,7 @@ export {
   ParseFrontMatter,
   DocusaurusConfig,
   FutureConfig,
+  FasterConfig,
   StorageConfig,
   Config,
 } from './config';
@@ -71,6 +72,8 @@ export {
   HtmlTagObject,
   HtmlTags,
 } from './plugin';
+
+export {CurrentBundler} from './bundler';
 
 export {
   RouteConfig,

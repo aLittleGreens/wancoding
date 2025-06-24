@@ -5,6 +5,40 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import {DEFAULT_SEARCH_TAG} from './utils/searchUtils';
+
+// TODO Docusaurus v4: remove these workarounds as a breaking change
+//  and remove docs plugin peerDeps in theme-common/package.json
+//  This is public API surface that we need to keep for v3
+//  See https://github.com/facebook/docusaurus/pull/10316
+export function useCurrentSidebarCategory(...args: unknown[]): unknown {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  return require('@docusaurus/plugin-content-docs/client').useCurrentSidebarCategory(
+    ...args,
+  );
+}
+export function filterDocCardListItems(...args: unknown[]): unknown {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  return require('@docusaurus/plugin-content-docs/client').filterDocCardListItems(
+    ...args,
+  );
+}
+export function useDocsPreferredVersion(...args: unknown[]): unknown {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  return require('@docusaurus/plugin-content-docs/client').useDocsPreferredVersion(
+    ...args,
+  );
+}
+export function useContextualSearchFilters() {
+  const {i18n} = useDocusaurusContext();
+  const docsTags =
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    require('@docusaurus/plugin-content-docs/client').useDocsContextualSearchTags();
+  const tags = [DEFAULT_SEARCH_TAG, ...docsTags];
+  return {locale: i18n.currentLocale, tags};
+}
+
 /*
  * APIs to document
  */
@@ -31,18 +65,6 @@ export {
   useStorageSlot,
   listStorageKeys,
 } from './utils/storageUtils';
-
-export {useContextualSearchFilters} from './utils/searchUtils';
-
-export {
-  useCurrentSidebarCategory,
-  filterDocCardListItems,
-} from './utils/docsUtils';
-
-export {
-  useBlogListPageStructuredData,
-  useBlogPostStructuredData,
-} from './utils/structuredDataUtils';
 
 export {usePluralForm} from './utils/usePluralForm';
 
@@ -90,11 +112,9 @@ export {isMultiColumnFooterLinks} from './utils/footerUtils';
 
 export {isRegexpStringMatch} from './utils/regexpUtils';
 
-export {duplicates, uniq} from './utils/jsUtils';
+export {duplicates, uniq, groupBy} from './utils/jsUtils';
 
 export {usePrismTheme} from './hooks/usePrismTheme';
-
-export {useDocsPreferredVersion} from './contexts/docsPreferredVersion';
 
 export {processAdmonitionProps} from './utils/admonitionUtils';
 
@@ -114,7 +134,9 @@ export {
   UnlistedBannerTitle,
   UnlistedBannerMessage,
   UnlistedMetadata,
-} from './utils/unlistedUtils';
+  DraftBannerTitle,
+  DraftBannerMessage,
+} from './translations/contentVisibilityTranslations';
 
 export {
   ErrorBoundaryTryAgainButton,

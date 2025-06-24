@@ -13,6 +13,7 @@ import {
   URISchema,
   validateFrontMatter,
 } from '@docusaurus/utils-validation';
+import {AuthorSocialsSchema} from './authorsSocials';
 import type {BlogPostFrontMatter} from '@docusaurus/plugin-content-blog';
 
 const BlogPostFrontMatterAuthorSchema = Joi.object({
@@ -21,6 +22,7 @@ const BlogPostFrontMatterAuthorSchema = Joi.object({
   title: Joi.string(),
   url: URISchema,
   imageURL: Joi.string(),
+  socials: AuthorSocialsSchema,
 })
   .or('key', 'name', 'imageURL')
   .rename('image_url', 'imageURL', {alias: true});
@@ -31,6 +33,8 @@ const FrontMatterAuthorErrorMessage =
 const BlogFrontMatterSchema = Joi.object<BlogPostFrontMatter>({
   id: Joi.string(),
   title: Joi.string().allow(''),
+  title_meta: Joi.string().allow(''),
+  sidebar_label: Joi.string().allow(''),
   description: Joi.string().allow(''),
   tags: FrontMatterTagsSchema,
   date: Joi.date().raw(),

@@ -5,7 +5,12 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React, {type ComponentProps, useEffect, useMemo} from 'react';
+import React, {
+  type ComponentProps,
+  type ReactNode,
+  useEffect,
+  useMemo,
+} from 'react';
 import clsx from 'clsx';
 import {
   ThemeClassNames,
@@ -14,12 +19,12 @@ import {
   Collapsible,
   useCollapsible,
 } from '@docusaurus/theme-common';
+import {isSamePath} from '@docusaurus/theme-common/internal';
 import {
   isActiveSidebarItem,
   findFirstSidebarItemLink,
   useDocSidebarItemsExpandedState,
-  isSamePath,
-} from '@docusaurus/theme-common/internal';
+} from '@docusaurus/plugin-content-docs/client';
 import Link from '@docusaurus/Link';
 import {translate} from '@docusaurus/Translate';
 import useIsBrowser from '@docusaurus/useIsBrowser';
@@ -116,7 +121,7 @@ export default function DocSidebarItemCategory({
   level,
   index,
   ...props
-}: Props): JSX.Element {
+}: Props): ReactNode {
   const {items, label, collapsible, className, href} = item;
   const {
     docs: {

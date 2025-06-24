@@ -15,6 +15,7 @@ import type {
 } from '@docusaurus/types';
 
 const defaultPrismTheme = themes.palenight;
+
 const DEFAULT_DOCS_CONFIG: ThemeConfig['docs'] = {
   versionPersistence: 'localStorage',
   sidebar: {
@@ -22,17 +23,30 @@ const DEFAULT_DOCS_CONFIG: ThemeConfig['docs'] = {
     autoCollapseCategories: false,
   },
 };
-const DocsSchema = Joi.object({
+
+const DocsSchema = Joi.object<ThemeConfig['docs']>({
   versionPersistence: Joi.string()
     .equal('localStorage', 'none')
     .default(DEFAULT_DOCS_CONFIG.versionPersistence),
-  sidebar: Joi.object({
+  sidebar: Joi.object<ThemeConfig['docs']['sidebar']>({
     hideable: Joi.bool().default(DEFAULT_DOCS_CONFIG.sidebar.hideable),
     autoCollapseCategories: Joi.bool().default(
       DEFAULT_DOCS_CONFIG.sidebar.autoCollapseCategories,
     ),
   }).default(DEFAULT_DOCS_CONFIG.sidebar),
 }).default(DEFAULT_DOCS_CONFIG);
+
+const DEFAULT_BLOG_CONFIG: ThemeConfig['blog'] = {
+  sidebar: {
+    groupByYear: true,
+  },
+};
+
+const BlogSchema = Joi.object<ThemeConfig['blog']>({
+  sidebar: Joi.object<ThemeConfig['blog']['sidebar']>({
+    groupByYear: Joi.bool().default(DEFAULT_BLOG_CONFIG.sidebar.groupByYear),
+  }).default(DEFAULT_BLOG_CONFIG.sidebar),
+}).default(DEFAULT_BLOG_CONFIG);
 
 const DEFAULT_COLOR_MODE_CONFIG: ThemeConfig['colorMode'] = {
   defaultMode: 'light',
@@ -43,6 +57,7 @@ const DEFAULT_COLOR_MODE_CONFIG: ThemeConfig['colorMode'] = {
 export const DEFAULT_CONFIG: ThemeConfig = {
   colorMode: DEFAULT_COLOR_MODE_CONFIG,
   docs: DEFAULT_DOCS_CONFIG,
+  blog: DEFAULT_BLOG_CONFIG,
   metadata: [],
   prism: {
     additionalLanguages: [],
@@ -293,6 +308,7 @@ const FooterLinkItemSchema = Joi.object({
   href: URISchema,
   html: Joi.string(),
   label: Joi.string(),
+  className: Joi.string(),
 })
   .xor('to', 'href', 'html')
   .with('to', 'label')
@@ -301,6 +317,12 @@ const FooterLinkItemSchema = Joi.object({
   // We allow any unknown attributes on the links (users may need additional
   // attributes like target, aria-role, data-customAttribute...)
   .unknown();
+
+const FooterColumnItemSchema = Joi.object({
+  title: Joi.string().allow(null).default(null),
+  className: Joi.string(),
+  items: Joi.array().items(FooterLinkItemSchema).default([]),
+});
 
 const LogoSchema = Joi.object({
   alt: Joi.string().allow(''),
@@ -333,6 +355,7 @@ export const ThemeConfigSchema = Joi.object<ThemeConfig>({
   colorMode: ColorModeSchema,
   image: Joi.string(),
   docs: DocsSchema,
+  blog: BlogSchema,
   metadata: Joi.array()
     .items(HtmlMetadataSchema)
     .default(DEFAULT_CONFIG.metadata),
@@ -368,12 +391,7 @@ export const ThemeConfigSchema = Joi.object<ThemeConfig>({
     logo: LogoSchema,
     copyright: Joi.string(),
     links: Joi.alternatives(
-      Joi.array().items(
-        Joi.object({
-          title: Joi.string().allow(null).default(null),
-          items: Joi.array().items(FooterLinkItemSchema).default([]),
-        }),
-      ),
+      Joi.array().items(FooterColumnItemSchema),
       Joi.array().items(FooterLinkItemSchema),
     )
       .messages({

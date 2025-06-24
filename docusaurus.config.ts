@@ -129,6 +129,12 @@ const config: Config = {
         {
           type: 'docSidebar',
           position: 'left',
+          sidebarId: 'java',
+          label: 'java后端',
+        },
+        {
+          type: 'docSidebar',
+          position: 'left',
           sidebarId: 'language',
           label: '编程语言',
         },
