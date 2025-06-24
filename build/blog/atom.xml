@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wancoding.cn/blog</id>
+    <title>wancoding Blog</title>
+    <updated>2024-08-28T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://wancoding.cn/blog"/>
+    <subtitle>wancoding Blog</subtitle>
+    <icon>https://wancoding.cn/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[如何搭建个人技术网站]]></title>
+        <id>https://wancoding.cn/blog/2024/08/28/个人网站搭建</id>
+        <link href="https://wancoding.cn/blog/2024/08/28/个人网站搭建"/>
+        <updated>2024-08-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[申请阿里云ECS服务器]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="申请阿里云ecs服务器"><a href="https://ecs.console.aliyun.com/home#/" target="_blank" rel="noopener noreferrer">申请阿里云ECS服务器</a><a href="https://wancoding.cn/blog/2024/08/28/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA#%E7%94%B3%E8%AF%B7%E9%98%BF%E9%87%8C%E4%BA%91ecs%E6%9C%8D%E5%8A%A1%E5%99%A8" class="hash-link" aria-label="申请阿里云ecs服务器的直接链接" title="申请阿里云ecs服务器的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="配置环境">配置环境<a href="https://wancoding.cn/blog/2024/08/28/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA#%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83" class="hash-link" aria-label="配置环境的直接链接" title="配置环境的直接链接">​</a></h2>
+<p>免费开源 <a href="https://www.docusaurus.io/zh-CN/docs/next/installation" target="_blank" rel="noopener noreferrer">docusaurus</a>
+<a href="https://www.bilibili.com/read/cv28011255/" target="_blank" rel="noopener noreferrer">搭建参考</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="申请域名">申请域名<a href="https://wancoding.cn/blog/2024/08/28/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA#%E7%94%B3%E8%AF%B7%E5%9F%9F%E5%90%8D" class="hash-link" aria-label="申请域名的直接链接" title="申请域名的直接链接">​</a></h2>
+<p>试用的ECS不支持绑定域名</p>
+<ul>
+<li>绑定IP</li>
+<li>ICP备案</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="申请数字证书">申请数字证书<a href="https://wancoding.cn/blog/2024/08/28/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA#%E7%94%B3%E8%AF%B7%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6" class="hash-link" aria-label="申请数字证书的直接链接" title="申请数字证书的直接链接">​</a></h2>
+<p>域名需要先备案</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="添加评论">添加评论<a href="https://wancoding.cn/blog/2024/08/28/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA#%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA" class="hash-link" aria-label="添加评论的直接链接" title="添加评论的直接链接">​</a></h2>
+<p>免费5分钟搞定，绑定Github账号
+<a href="https://giscus.app/zh-CN" target="_blank" rel="noopener noreferrer">giscus</a></p>]]></content>
+        <author>
+            <name>蔡宇奎</name>
+            <uri>https://github.com/aLittleGreens</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Greetings!，my fist blog]]></title>
+        <id>https://wancoding.cn/blog/greetings</id>
+        <link href="https://wancoding.cn/blog/greetings"/>
+        <updated>2024-08-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[我的第一篇博客]]></summary>
+        <content type="html"><![CDATA[<p>我的第一篇博客</p>
+<p>Feel free to play around and edit this post as much as you like.</p>]]></content>
+        <author>
+            <name>蔡宇奎</name>
+            <uri>https://github.com/aLittleGreens</uri>
+        </author>
+        <category label="greetings" term="greetings"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://wancoding.cn/blog/welcome</id>
+        <link href="https://wancoding.cn/blog/welcome"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
+<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
+<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
+<p>The blog post date can be extracted from filenames, such as:</p>
+<ul>
+<li><code>2019-05-30-welcome.md</code></li>
+<li><code>2019-05-30-welcome/index.md</code></li>
+</ul>
+<p>A blog post folder can be convenient to co-locate blog post images:</p>
+<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://wancoding.cn/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
+<p>The blog supports tags as well!</p>
+<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+        <author>
+            <name>Sébastien Lorber</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+        <category label="Facebook" term="Facebook"/>
+        <category label="Hello" term="Hello"/>
+        <category label="Docusaurus" term="Docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MDX Blog Post]]></title>
+        <id>https://wancoding.cn/blog/mdx-blog-post</id>
+        <link href="https://wancoding.cn/blog/mdx-blog-post"/>
+        <updated>2021-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
+        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre></div></div><button>Click me!</button></div></div>]]></content>
+        <author>
+            <name>Sébastien Lorber</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <category label="Docusaurus" term="Docusaurus"/>
+    </entry>
+</feed>
