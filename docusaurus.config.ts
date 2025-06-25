@@ -117,6 +117,12 @@ const config: Config = {
         {
           type: 'docSidebar',
           position: 'left',
+          sidebarId: 'ai',
+          label: 'AI',
+        },
+        {
+          type: 'docSidebar',
+          position: 'left',
           sidebarId: 'thought',
           label: '👨‍💻编程思想',
         },
@@ -144,6 +150,7 @@ const config: Config = {
           sidebarId: 'android',
           label: 'Android',
         },
+
         { to: '/website', label: '🌐网站导航', position: 'left' },
 
         { to: '/blog', label: 'Blog', position: 'left' },
@@ -197,7 +204,7 @@ const config: Config = {
           ],
         }
       ],
-      
+
       copyright: `
       <p margin-bottom: 0;>Copyright ©  ${new Date().getFullYear()} wancoding. | Built with Docusa˝urus.</p>
       <p style="margin-top: 0;">
